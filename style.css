@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    background-image:url(/images/vbg.jpg)
+    background-image:url("./images/vbg.jpg")
 }
 
 
