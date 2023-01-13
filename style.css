@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&display=swap');
+
+body {
+    margin: 0;
+    background-image:url(/images/vbg.jpg)
+}
+
+
+/* Navigation section */
+nav {
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+
+}
+
+/* Menu bar with dropdown */
+#navbar {
+    color: white;
+    display: flex;
+    align-items: center; 
+}
+
+/* Navigation bar text only */
+#navbar a {
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-decoration: none;
+    font-size: .875rem;
+    font-weight: 700;
+    margin: 0px 15px;
+    letter-spacing: .2rem;
+}
+
+#navbar a:hover {
+    text-decoration: red line-through;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Logo */
+#navbarlogo {
+    width: 180px;
+    display: flex;
+    padding: 35px 40px;
+    
+}
+
+/* Dropdown menu */
+.navItem {
+    position: relative;
+    display: inline-block;
+
+}
+
+.navDropdown {
+    position: absolute;
+    background: rgba(0, 0, 0, 60%);
+    color: #fff;
+    display: none;
+    padding: 10px 25px;
+    top: calc(100% + 15px);
+}
+
+.navItem:hover .navDropdown {
+    display: block;
+    
+}
+
+/* Login/Signup */
+
+#login {
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+#login a {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 600;
+    margin: 10px;
+    font-size: .70rem;
+    color: #f6efc7;
+    border: 4px;
+    border-color: transparent;
+    text-shadow: 0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000;
+    letter-spacing: .17em;
+
+    
+}
+
+/* Main text */
+#section1 {
+    font-family: 'Hanken Grotesk', sans-serif, Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: .15em;
+    color: #fff;
+    margin-bottom: 1em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Coming to PC & Consoles */
+h4 {
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/* What Monster will you be? */
+h1 {
+    font-family: Adam;
+    text-shadow: 0 0 1px #ff2a28,0 0 20px #ff2a28,0 0 30px #000;
+    font-weight: 290;
+    font-size: 5rem;
+    letter-spacing: 8px;
+    margin: 0px;
+    padding-bottom: 40px;
+    color: rgb(219, 56, 56);
+
+}
+
+/* Sign up for news and rewards */
+.buttonbox {
+    background: rgba(0, 0, 0, 35%);
+    border-width: 4px;
+    border-style: solid;
+    border-color: #61c6b4;
+    border-radius: 15px;
+    padding: 12px 5px;
+    margin: 10px;
+    font-weight: 700;
+    font-size: .800rem;
+    letter-spacing: .15rem;
+    box-shadow: 0 0 20px #61c6b4;
+    transition-timing-function: ease-out;
+    transition: .3s;
+}
+
+.buttonbox a {
+    margin: 12px 40px
+}
+
+.buttonbox a:hover {
+    color: #61c6b4;
+    margin: 12px 40px
+
+}
+
+.buttonbox:hover {
+    outline: none;
+    box-shadow: 0 0 20px #87fce6;
+    transition: .3s;
+}
